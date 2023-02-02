@@ -26,7 +26,7 @@ def drawtitle():
     turtle.up()
     turtle.goto(-325,250)
     style = ('Courier', 23, 'underline')
-    turtle.write("Andie's Hangman: You get 10 guesses! ", font=style)
+    turtle.write("Kris' Hangman: You get 10 guesses! ", font=style)
     
     
 def makeblank(word):
@@ -195,7 +195,7 @@ def playground(word, letters, wrong):
     turtle.clear()
     turtle.pencolor("white")
     turtle.bgcolor("black")
-    turtle.bgpic("starImage.gif")
+    #turtle.bgpic("images/countryside-img.gif")
 
     drawstruct()
     drawtitle()
